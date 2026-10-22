@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — n8n Gmail Assistant</title>
+<style>
+  body { font-family: -apple-system, 'Segoe UI', Roboto, sans-serif; background: #fafafa; color: #202124; display: flex; justify-content: center; min-height: 100vh; margin: 0; }
+  .card { background: #fff; max-width: 640px; margin: 24px; padding: 40px; border-radius: 16px; box-shadow: 0 1px 4px rgba(0,0,0,.1); }
+  h1 { font-size: 24px; margin: 0 0 8px; }
+  h2 { font-size: 17px; margin: 24px 0 8px; }
+  p, li { line-height: 1.6; color: #5f6368; font-size: 15px; }
+  .date { color: #9aa0a6; font-size: 13px; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>Privacy Policy</h1>
+    <div class="date">Last updated: 22 October 2026</div>
+    <p>This policy applies to the personal automation application <strong>n8n Gmail Assistant</strong>, operated solely for the account owner's personal use.</p>
+    <h2>Data accessed</h2>
+    <ul>
+      <li>Email messages in the owner's own Gmail account (subject, sender, body, attachments) — read via the Gmail API scope <code>gmail.modify</code>.</li>
+      <li>No data is collected from any other person or account.</li>
+    </ul>
+    <h2>How data is used</h2>
+    <ul>
+      <li>Classifying and organizing the owner's own email (keep / trash / label).</li>
+      <li>Generating a daily summary digest sent to the owner's own Gmail address.</li>
+      <li>Summarizing text extracted from PDF attachments in the owner's own email.</li>
+    </ul>
+    <h2>Storage &amp; sharing</h2>
+    <ul>
+      <li>All processing happens on the owner's own self-hosted server (Raspberry Pi) on a private network.</li>
+      <li>Email content is never sold, shared, or used for advertising.</li>
+      <li>Text may be sent to a third-party AI API solely to produce summaries of the owner's own documents; no account data is retained by that service beyond the request.</li>
+    </ul>
+    <h2>Your rights</h2>
+    <p>Because this is a single-user personal app, the owner has full control: revoke API access at any time via Google Account → Security → Third-party access, or delete the OAuth client in Google Cloud Console.</p>
+    <h2>Contact</h2>
+    <p>Questions: kishor.m576@gmail.com</p>
+  </div>
+</body>
+</html>
